@@ -13,7 +13,7 @@ const Header = () => {
 
 const styles = {
   viewStyle: {
-    backgroundColor: '#F8F8F8'
+    backgroundColor: '#9E9E9E'
   },
   textStyle: {
     fontSize: 20
