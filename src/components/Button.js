@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, TouchableOpacity } from 'react-native';
 
-export default ({ onPressProp }) => {
+export default ({ onPressProp, children }) => {
   const { buttonStyle, textStyle } = styles;
   return (
     <TouchableOpacity
@@ -9,7 +9,7 @@ export default ({ onPressProp }) => {
       onPress={onPressProp}
     >
       <Text style={textStyle}>
-        Click Me!
+        {children}
       </Text>
     </TouchableOpacity>
   );
